@@ -1,0 +1,206 @@
+@keyframes coming {
+    from{color: #f8961e; font-size: 20px;}
+    to{color:  #ffc300; font-size: 70px;}
+}
+
+body{width: 100%;}
+main{
+margin: 0px;
+}
+.clr{clear: both;}
+.nav{
+    background-color: #000814;    
+    color: #fdfcdc;
+}
+.n1,.n2,.n3,.n4{
+    /* background-color:yellow; */
+    font-size: 25px;
+    font-weight: bold;
+}
+.n1{float: left;   padding: 10px 10px 10px 10px ; margin:0px 10px 0px 0px ;}
+.n2{float: left;   padding: 16px 90px 16px 90px ; margin:0px 0px 0px 400px ;}
+.n3{float: left;   padding: 16px 10px 16px 10px ; margin:0px 0px 0px 0px ;}
+.n4{float: left;   padding: 16px 16px 16px 16px ; margin:0px 0px 0px 0px ; }
+
+#inside{
+    color: #e0fbfc;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+.n2:hover , .n3:hover , .n4:hover{
+    background-color:#001d3d;
+    transition: .3s;
+}
+
+#sign , #login{
+    text-decoration: none;
+    color: #fdfcdc;
+}
+
+
+/* Nav Bar Competed  */
+header{
+    background-image: url('back5.jpg');
+    text-align: center;
+    background-size: cover;
+    width: 100%;
+    border: solid 1px #000814;
+}
+.mainhead{width: 60%; margin:  150px 0px 40px 280px ;} 
+
+#dont{
+    font-size: 70px; 
+    color: #ffc300;
+    animation: coming 3s;
+}
+
+.content{
+    font-size: 25px; 
+    color: #c1121f; font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: ;
+}
+
+.work{
+    padding:  10px 50px 10px 50px;
+    background-color: #4CAF50;
+    float: left;
+    font-size: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left:100px ;
+}
+.work:hover , .join:hover{
+    color:cornsilk;
+}
+.join{
+    padding:  10px 50px 10px 50px;
+    background-color: #008CBA;
+    float: right;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+/* Header part competed */
+
+.footmain{
+    background-color: #04151f;
+    width: 100%;
+    color: wheat;
+    
+}
+.fo1 > ul ,.fo2 > ul ,.fo3 > ul ,.fo4 > ul  {
+    margin: 0px;
+    display: block;
+    margin: -10px  0px  0px  5px ;
+    padding: 10px  0px  0px  0px ;
+    font-size: 20px;
+    list-style: none;
+}
+
+.fo1 , .fo3 , .fo2 ,.fo4 , .fo5{  
+    padding: 25px;
+    
+    float: left;
+}
+.fo5 > img{
+    width: 50px;
+    padding-left: 20px;
+}
+.fo5, .fo6{
+    position : relative;
+    float: right;
+}
+.fo6{
+    font-size: 25px;
+    padding: 0px  0px  0px  0px ;
+    /* border: red solid 5px; */
+    margin-right: 10px;
+}
+
+.fo1>ul>li:hover ,.fo2>ul>li:hover ,.fo3>ul>li:hover ,.fo4>ul>li:hover{
+    color:crimson;
+    font-weight: bold;
+    transition: .2s;
+}
+
+
+
+/* Start center elemets like image and compaies */
+
+.clr{clear: both;}
+.I1{
+    border: #b7b7a4 solid 2px;   
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px #b1a7a6;
+    margin: 20px 0px 0px 50px;
+}
+
+.up1 >img{
+    width: 350px;
+    height: 170px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.up2 >img{
+    width: 50px;
+    height: 50px;
+    margin:0px 0px 0px 10px;
+}
+
+.info{
+    width: 300px;
+}
+.info >p{
+    margin:0px 0px 15px 10px;
+    color:#ee6c4d;
+}
+.info >p::first-line{
+    color:#161a1d;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.up2{float: left;}
+.info{float: left;}
+
+.up1 >img:hover{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.I1{float: left;}
+
+/* Imge part completer */
+
+.future{
+    margin: 25px 0px 0px 0px;
+    /* border: black solid 5px; */
+}
+
+.d0{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ee6c4d;
+    float: left;
+    margin: 60px 0px 0px 20px;
+
+}
+
+
+.Imgg > img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 50%;
+    margin: 0px 0px 0px 10px;
+
+ }

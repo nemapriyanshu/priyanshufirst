@@ -1,0 +1,55 @@
+body{
+    /* background-color: #0d1b2a; */
+    background-image:url("back5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.field{
+    width: max-content;
+    border: 2px yellow solid;
+    margin: 50px 50px 50px 210px ;
+
+}
+h1{
+    color: yellow;
+    font-size: 60px;
+}
+
+input{
+    border-radius: 12px;
+    padding-left: 0px 20px 0px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #f0e6ef;
+    margin: 0px 5px 15px 10px;
+    padding: 10px 0px 10px 0px;
+}
+::placeholder{
+    padding-left: 20px; color: #99582a;    
+}
+
+
+input:focus{
+    outline: none;
+    border: #ffee32 3px solid;
+    transition: 0.2s;
+}
+
+.btns{
+    width: 250px;
+    font-size: 30px;
+    background-color: lightcoral;
+    margin-left: 290px;
+    color: #432818;
+    border-radius: 15px;
+}
+.btns:hover{
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+
+table{
+    backdrop-filter: blur(50px);
+    border-radius: 50px;
+}

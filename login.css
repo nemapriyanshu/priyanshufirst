@@ -1,0 +1,53 @@
+body{
+    background-image: url("back3.jpg");
+    background-size: cover;
+    
+}
+.field{
+    width: max-content;
+    border: 5px #ffd100 solid;
+    margin: 100px 0px 0px 325px ;
+}
+h1{
+    color: yellow;
+    font-size: 60px;
+}
+
+input{
+    width: 600px;
+    border-radius: 12px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #f0e6ef;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 0px;
+}
+::placeholder{
+    padding-left: 20px; color: #c1121f;    
+}
+
+
+input:focus{
+    outline: none;
+    border: #ffee32 3px solid;
+    transition: 0.2s;
+}
+
+.btns{
+    
+    font-size: 30px;
+    background-color: lightcoral;
+    margin-left: 250px;
+    color: #432818;
+    border-radius: 15px;
+    padding:  3px 10px 3px 10px;
+}
+.btns:hover{
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+table{
+    backdrop-filter: blur(50px);
+    border-radius: 50px;
+}
